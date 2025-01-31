@@ -15,11 +15,11 @@ Project consists of deploying a realistic honeypot in an isolated virtual enviro
 
 - <b>Kali Linux</b>
 
-<h2>Program walk-through:</h2>
+<h2>Setting up the Honeypot:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Installing git python3-venv: <br/>
+<img src="https://i.imgur.com/4miRnKd.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/>
 <br />
 <br />
 Select the disk:  <br/>
