@@ -22,12 +22,12 @@ Installing git python3-venv: <br/>
 <img src="https://i.imgur.com/4miRnKd.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Adding cowrie as a user, and switching to the new user:  <br/>
+<img src="https://i.imgur.com/N10xVyd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Activating Cowrie: <br/>
+<img src="https://i.imgur.com/3UMcjcM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
