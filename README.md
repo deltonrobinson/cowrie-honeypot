@@ -82,33 +82,33 @@ Creating a payroll database:<br>
 <h3>Initial Attack of Honeypot</h3>
 <p align="center">
 Nmap scan of the Ubuntu Honeypot from the Kali Workstation:<br>
-<img src="" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
+<img src="https://i.imgur.com/MY49DbL.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
 Using Hydra to gain acess to the Honeypot through OpenSSH (Cowrie):<br>
-<img src="" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
+<img src="https://i.imgur.com/rGZe1Lz.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
 Using SSH to connect to the Honeypot using credentials obtained from Hydra, and navigating to a user's directory:<br>
-<img src="" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
+<img src="https://i.imgur.com/xiEG9hX.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
 Using Hydra to gain access to the Honeypot through FTP (VSFTP):<br>
-<img src="" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
-Moving through the Honeypot and downloading sentitive files to the Kali Workstation:<br>
-<img src="" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
+<img src="https://i.imgur.com/iE44Cys.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
+Moving through the Honeypot via the access gained through vsftpd and downloading sentitive files to the Kali Workstation:<br>
+<img src="https://i.imgur.com/DoYBXzW.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
 Reviewing downloaded sentitive files within the Kali Workstation Attacker:<br>
-<img src="" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
+<img src="https://i.imgur.com/Mk35OI4.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
 </p>
 
 <h2>Reviewing Attack Logs</h2>
 <h3>Cowrie OpenSSH Service</h3>
 <p align="center">
 Grep of failed login attempts on the Cowrie SSH Honeypot:<br>
-<img src="" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
+<img src="https://i.imgur.com/cXKxrK7.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
 Grep of successful login attempts on the Cowrie SSH Honeypot (u/root | p/123456789):<br>
-<img src="" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
+<img src="https://i.imgur.com/Tab6l1z.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
 </p>
 <h3>VerySecureFTP Service</h3>
 <p align="center">
 Grep of login attempts on the honeypot’s vsftpd service. Multiple failed and one success (u/ftpuser | p/ftpsuer):<br>
-<img src="" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
-Grep of successful login and downloads of sensitive information from the FTP server:<br>
-<img src="" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
+<img src="https://i.imgur.com/DqFUDzh.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
+Grep of successful logins/downloads of sensitive information from the FTP server:<br>
+<img src="https://i.imgur.com/rSCGnaR.png" height="80%" width="80%" alt="Setting up Honeypot (installing git python3-venv)"/><br>
 </p>
 
 
